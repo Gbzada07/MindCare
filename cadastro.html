@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro - MindCare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>MindCare</h1>
+    <p class="subtitle">MENTAL HEALTH</p>
+    <h2>Cadastro</h2>
+    <input type="text" placeholder="Nome Completo" />
+    <input type="email" placeholder="E-mail" />
+    <div class="password-container">
+      <input type="password" id="cadSenha" placeholder="Senha" />
+      <span onclick="togglePassword('cadSenha')">👁️</span>
+    </div>
+    <div class="password-container">
+      <input type="password" id="cadConfSenha" placeholder="Confirme a Senha" />
+      <span onclick="togglePassword('cadConfSenha')">👁️</span>
+    </div>
+    <button>Cadastrar</button>
+    <p class="link">Já tem uma conta? <a href="index.html">Faça login</a></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
